@@ -1,64 +1,66 @@
-INSERT INTO projects (1, "Proj_one", "cat1" ,100, "May 1", "Jan 5");
-INSERT INTO projects (2, "Proj_two", "cat2" ,200, "May 2", "Jan 6");
-INSERT INTO projects (3, "Proj_three", "cat3" ,300, "May 3", "Jan 7");
-INSERT INTO projects (4, "Proj_four", "cat4" ,400, "May 4",  "Jan 8");
-INSERT INTO projects (5, "Proj_five","cat2" ,  500, "May 5", "Jan 9");
-INSERT INTO projects (6, "Proj_six","cat3" ,  600, "May 6", "Jan 10");
-INSERT INTO projects (7, "Proj_seven","cat4" , 700,"May 7", "Jan 11");
-INSERT INTO projects (8, "Proj_eight","cat1" , 800, "May 8", "Jan 12");
-INSERT INTO projects (9, "Proj_nine","cat2" , 900, "May 9", "Jan 13");
-INSERT INTO projects (10, "Proj_ten","cat1" , 1000, "May 10", "Jan 14");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES
+(1, "Proj_one", "cat1" ,100, "May 1", "Jan 5");
+(2, "Proj_two", "cat2" ,200, "May 2", "Jan 6");
+(3, "Proj_three", "cat3" ,300, "May 3", "Jan 7");
+(4, "Proj_four", "cat4" ,400, "May 4",  "Jan 8");
+(5, "Proj_five","cat2" ,  500, "May 5", "Jan 9");
+(6, "Proj_six","cat3" ,  600, "May 6", "Jan 10");
+(7, "Proj_seven","cat4" , 700,"May 7", "Jan 11");
+(8, "Proj_eight","cat1" , 800, "May 8", "Jan 12");
+(9, "Proj_nine","cat2" , 900, "May 9", "Jan 13");
+(10, "Proj_ten","cat1" , 1000, "May 10", "Jan 14");
 
-INSERT INTO users ("a", 13);
-INSERT INTO users ("b", 12);
-INSERT INTO users ("c", 13);
-INSERT INTO users ("d", 14);
-INSERT INTO users ("e", 15);
-INSERT INTO users ("f", 16);
-INSERT INTO users ("h", 17);
-INSERT INTO users ("g", 18);
-INSERT INTO users ("i", 19);
-INSERT INTO users ("j", 11);
-INSERT INTO users ("k", 12);
-INSERT INTO users ("l", 13);
-INSERT INTO users ("m", 14);
-INSERT INTO users ("n", 15);
-INSERT INTO users ("o", 16);
-INSERT INTO users ("p", 17);
-INSERT INTO users ("q", 18);
-INSERT INTO users ("r", 19);
-INSERT INTO users ("s", 11);
-INSERT INTO users ("t", 12);
-INSERT INTO users ("u", 13);
+INSERT INTO users (id, name, age) VALUES 
+(1, "a", 13);
+(2,"b", 12);
+(3,"c", 13);
+(4,"d", 14);
+(5"e", 15);
+(6,"f", 16);
+(7,"h", 17);
+(8,"g", 18);
+(9,"i", 19);
+(10,"j", 11);
+(11,"k", 12);
+(12,"l", 13);
+(13,"m", 14);
+(14,"n", 15);
+(15,"o", 16);
+(16,"p", 17);
+(17,"q", 18);
+(18,"r", 19);
+(19,"s", 11);
+(20,"t", 12);
 
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
-INSERT INTO pledges (500, 1, 2);
+INSERT INTO pledges (id, amount, user_id, project_id) VALUES
+(1, 10.00, 1, 2),
+(2, 20.00, 1, 3),
+(3, 40.00, 1, 4),
+(4, 50.00, 2, 3),
+(5, 10.00, 3, 2),
+(6, 20.00, 4, 4),
+(7, 40.00, 5, 10),
+(8, 60.00, 6, 10),
+(9, 50.00, 7, 9),
+(10, 700.00, 8, 8),
+(11, 1000.00, 8, 7),
+(12, 40.00, 9, 6),
+(13, 50.00, 9, 3),
+(14, 50.00, 10, 4),
+(15, 24.00, 12, 1),
+(16, 34.00, 11, 1),
+(17, 12.00, 13, 6),
+(18, 19.00, 14, 5),
+(19, 20.00, 15, 5),
+(20, 40.00, 16, 6),
+(21, 35.50, 17, 7),
+(22, 40.00, 18, 8),
+(23, 60.00, 19, 9),
+(24, 70.00, 20, 10),
+(25, 100.00, 20, 4),
+(26, 40.00, 19, 1),
+(27, 20.00, 18, 6),
+(28, 90.00, 17, 9),
+(29, 230.00, 16, 6),
+(30, 450.00, 15, 5);
+
