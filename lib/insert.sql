@@ -1,15 +1,15 @@
-INSERT INTO projects (title "Proj_one", funding_goal 100, start_date "May 1", end_date "Jan 5");
-INSERT INTO projects (title "Proj_two", funding_goal 200, start_date "May 2", end_date "Jan 6");
-INSERT INTO projects (title "Proj_three", funding_goal 300, start_date "May 3", end_date "Jan 7");
-INSERT INTO projects (title "Proj_four", funding_goal 400, start_date "May 4", end_date "Jan 8");
-INSERT INTO projects (title "Proj_five", funding_goal 500, start_date "May 5", end_date "Jan 9");
-INSERT INTO projects (title "Proj_six", funding_goal 600, start_date "May 6", end_date "Jan 10");
-INSERT INTO projects (title "Proj_seven", funding_goal 700, start_date "May 7", end_date "Jan 11");
-INSERT INTO projects (title "Proj_eight", funding_goal 800, start_date "May 8", end_date "Jan 12");
-INSERT INTO projects (title "Proj_nine", funding_goal 900, start_date "May 9", end_date "Jan 13");
-INSERT INTO projects (title "Proj_ten", funding_goal 1000, start_date "May 10", end_date "Jan 14");
+INSERT INTO projects ("Proj_one", 100, "May 1", "Jan 5");
+INSERT INTO projects ( "Proj_two",  200, "May 2", "Jan 6");
+INSERT INTO projects ( "Proj_three",  300, "May 3", "Jan 7");
+INSERT INTO projects ( "Proj_four", 400, "May 4",  "Jan 8");
+INSERT INTO projects ( "Proj_five",  500, "May 5", "Jan 9");
+INSERT INTO projects ( "Proj_six",  600, "May 6", "Jan 10");
+INSERT INTO projects ("Proj_seven", 700,"May 7", "Jan 11");
+INSERT INTO projects ("Proj_eight", 800, "May 8", "Jan 12");
+INSERT INTO projects ( "Proj_nine", 900, "May 9", "Jan 13");
+INSERT INTO projects ( "Proj_ten", 1000, "May 10", "Jan 14");
 
-INSERT INTO users (name "a", age 13);
+INSERT INTO users ("a", 13);
 INSERT INTO users (name "b", age 12);
 INSERT INTO users (name "c", age 11);
 INSERT INTO users (name "d", age 19);
