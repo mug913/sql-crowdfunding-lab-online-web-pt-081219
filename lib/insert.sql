@@ -1,13 +1,13 @@
-INSERT INTO projects ( "Proj_one", "cat1" ,100, "May 1", "Jan 5");
-INSERT INTO projects ( "Proj_two", "cat2" ,200, "May 2", "Jan 6");
-INSERT INTO projects ( "Proj_three", "cat3" ,300, "May 3", "Jan 7");
-INSERT INTO projects ( "Proj_four", "cat4" ,400, "May 4",  "Jan 8");
-INSERT INTO projects ( "Proj_five","cat2" ,  500, "May 5", "Jan 9");
-INSERT INTO projects ( "Proj_six","cat3" ,  600, "May 6", "Jan 10");
-INSERT INTO projects ("Proj_seven","cat4" , 700,"May 7", "Jan 11");
-INSERT INTO projects ("Proj_eight","cat1" , 800, "May 8", "Jan 12");
-INSERT INTO projects ( "Proj_nine","cat2" , 900, "May 9", "Jan 13");
-INSERT INTO projects ( "Proj_ten","cat1" , 1000, "May 10", "Jan 14");
+INSERT INTO projects (1, "Proj_one", "cat1" ,100, "May 1", "Jan 5");
+INSERT INTO projects (2, "Proj_two", "cat2" ,200, "May 2", "Jan 6");
+INSERT INTO projects (3, "Proj_three", "cat3" ,300, "May 3", "Jan 7");
+INSERT INTO projects (4, "Proj_four", "cat4" ,400, "May 4",  "Jan 8");
+INSERT INTO projects (5, "Proj_five","cat2" ,  500, "May 5", "Jan 9");
+INSERT INTO projects (6, "Proj_six","cat3" ,  600, "May 6", "Jan 10");
+INSERT INTO projects (7, "Proj_seven","cat4" , 700,"May 7", "Jan 11");
+INSERT INTO projects (8, "Proj_eight","cat1" , 800, "May 8", "Jan 12");
+INSERT INTO projects (9, "Proj_nine","cat2" , 900, "May 9", "Jan 13");
+INSERT INTO projects (10, "Proj_ten","cat1" , 1000, "May 10", "Jan 14");
 
 INSERT INTO users ("a", 13);
 INSERT INTO users ("b", 12);
