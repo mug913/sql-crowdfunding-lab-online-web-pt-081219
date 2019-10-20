@@ -10,7 +10,7 @@ INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) V
 (9, "Proj_nine","cat2" , 900, "May 9", "Jan 13");
 (10, "Proj_ten","cat1" , 1000, "May 10", "Jan 14");
 
-INSERT INTO users (id, name, age) VALUES 
+INSERT INTO users (id, name, age) VALUES
 (1, "a", 13);
 (2,"b", 12);
 (3,"c", 13);
@@ -63,4 +63,3 @@ INSERT INTO pledges (id, amount, user_id, project_id) VALUES
 (28, 90.00, 17, 9),
 (29, 230.00, 16, 6),
 (30, 450.00, 15, 5);
-
