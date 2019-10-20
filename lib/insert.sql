@@ -1,6 +1,6 @@
-INSERT INTO projects ("Proj_one", 100, "May 1", "Jan 5");
-INSERT INTO projects ( "Proj_two",  200, "May 2", "Jan 6");
-INSERT INTO projects ( "Proj_three",  300, "May 3", "Jan 7");
+INSERT INTO projects ( "Proj_one", 100, "May 1", "Jan 5");
+INSERT INTO projects ( "Proj_two", 200, "May 2", "Jan 6");
+INSERT INTO projects ( "Proj_three", 300, "May 3", "Jan 7");
 INSERT INTO projects ( "Proj_four", 400, "May 4",  "Jan 8");
 INSERT INTO projects ( "Proj_five",  500, "May 5", "Jan 9");
 INSERT INTO projects ( "Proj_six",  600, "May 6", "Jan 10");
